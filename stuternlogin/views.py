@@ -10,6 +10,7 @@ def index(request):
         return htrd(reverse("stuternlogin:login"))
     return render(request, "stuternlogin/welcome.html", {
         "username" : request.user.username.capitalize()
+        #"stuternpage" : 'https://stutern.com'
     })
 
 def createaccount(request):
