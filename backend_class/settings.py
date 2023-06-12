@@ -117,7 +117,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'https://github.com/teniolona/backend_class/tree/9c1f39e0184922677aedb7a5d0ec2ce475f11305/stuternlogin/static/'
-STATIC_ROOT = 'C:/Users/USER/Desktop/Tutorials/javascript/backend_class/stuternlogin/static'
+STATIC_ROOT = 'stuternlogin/static'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
