@@ -11,5 +11,15 @@
             "src":"/(.*)",
             "dest": "backend_class/wsgi.py"
         }
-    ]
+    ],
+    "rewrites": [
+        {
+          "src": "/static/(.*)",
+          "dest": "/static/$1"
+        },
+        {
+          "src": "/(.*)",
+          "dest": "/$1"
+        }
+      ]
 }
