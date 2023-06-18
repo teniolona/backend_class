@@ -48,6 +48,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'backend_class.urls'
@@ -116,8 +117,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = 'https://github.com/teniolona/backend_class/tree/9c1f39e0184922677aedb7a5d0ec2ce475f11305/stuternlogin/static/'
-STATIC_ROOT = 'stuternlogin/static'
+STATIC_ROOT = BASE_DIR / 'productionfiles'
+STATIC_URL = 'static/'
+#STATIC_URL = 'https://github.com/teniolona/backend_class/tree/9c1f39e0184922677aedb7a5d0ec2ce475f11305/stuternlogin/static/'
+#STATIC_ROOT = 'stuternlogin/static'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
