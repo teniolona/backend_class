@@ -14,7 +14,7 @@ def index(request):
     })
 
 def createaccount(request):
-    return render(request, "stuternlogin/signup.html")
+    return render(request, 'stuternlogin/signup.html')
 
 def login_user(request) :
     if request.method == "POST":

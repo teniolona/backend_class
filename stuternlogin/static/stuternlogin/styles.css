@@ -7,12 +7,19 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
-    padding: 8rem 0rem;
 }
 .picture-overlay {
     /* height: 90vh;
     background-color: #ffffffaa; */
     /* padding: 5rem 0rem; */
+    padding: 8rem 0rem;
+}
+.picture_overlay1 {
+    padding: 11rem 0rem;
+}
+.middle-bg {
+    background: rgb(34,195,134);
+    background: linear-gradient(333deg, rgba(34,195,134,1) 0%, rgba(253,149,45,1) 100%);
 }
 .login {
     box-shadow: 0px 1px 3px 0px rgba(31, 31, 31, 0.47);
