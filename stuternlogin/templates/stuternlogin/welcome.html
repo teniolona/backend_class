@@ -1,10 +1,7 @@
 {% extends "stuternlogin/layout_s.html" %}
 {% load static %}
 {% block body %}
-    <main class="picture_overlay1">
-        <div style="margin: auto 0; padding: 2rem 0;" class="middle-bg">
-            <h1 style="font-size: 140px; text-align: center; font-family: Montserrat; color:white;">Welcome {{username}}</h1>
-            <a href="{% url 'stuternlogin:logout' %}" style="text-align: center; display: block; font-size: 20px; color: white;">Want To Log Out?</a>
-        </div>
-    </main>
+    <h1 style="font-size: 150px;">Welcome {{username}}</h1>
+
+    <a href="{% url 'stuternlogin:logout' %}">Want To Log Out?</a>
 {% endblock %}
