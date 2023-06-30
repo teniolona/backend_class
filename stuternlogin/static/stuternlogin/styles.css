@@ -7,12 +7,17 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
-    padding: 8rem 0rem;
+    padding: 10rem 0rem;
 }
 .picture-overlay {
     /* height: 90vh;
     background-color: #ffffffaa; */
     /* padding: 5rem 0rem; */
+}
+#pop-box {
+    background-color: white;
+    margin: 5rem;
+    
 }
 .login {
     box-shadow: 0px 1px 3px 0px rgba(31, 31, 31, 0.47);
