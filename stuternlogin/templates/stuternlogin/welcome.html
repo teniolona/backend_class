@@ -1,9 +1,11 @@
 {% extends "stuternlogin/layout_s.html" %}
 {% load static %}
 {% block body %}
-    <p id="pop-box">
-        <h1 style="font-size: 140px; font-family:'Montserrat';">Welcome {{username}}</h1>
-    
-        <a href="{% url 'stuternlogin:logout' %}">Want To Log Out?</a>
+    <div class="picture-overlay">
+        <div id="pop-box">
+            <h1 style="font-size: 90px;">Welcome {{username}}</h1>
+        
+            <a href="{% url 'stuternlogin:logout' %}">Want To Log Out?</a>
+        </div>
     </div>
 {% endblock %}
