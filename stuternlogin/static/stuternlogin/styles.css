@@ -5,7 +5,7 @@ body {
     margin: 0;
     background: linear-gradient(#ffffffaa, #ffffffaa), url("/static/images/image.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 .container {
     display: block;
@@ -19,7 +19,7 @@ body {
 }
 #pop-box {
     background-color: white;
-    padding: 2rem 0rem;
+    padding: 1.5rem 0rem;
     margin: 5vw;
     font-family: 'Montserrat';
     text-align: center;
